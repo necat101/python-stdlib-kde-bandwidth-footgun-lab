@@ -87,6 +87,7 @@ def make_row(method, case_id, expected_classification, **fields):
         "left_density_score": None,
         "right_density_score": None,
         "local_density_label": None,
+        "density_query_results": None,
         "exception_type": None,
         "exception_message": None,
         "elapsed_time": None,
@@ -109,7 +110,8 @@ def run_method(method, case_id, fn):
             result = {}
         row = make_row(method, case_id, expected, **result)
         if row["actual_classification"] is None:
-            row["actual_classification"] = expected
+            row["actual_classification"] = "fail"
+            row["failure_reason"] = "missing actual_classification from case handler"
         row["elapsed_time"] = elapsed
         rows.append(row)
     except Exception as e:
@@ -177,9 +179,12 @@ def case_empty_data_errors_marker(method):
             f = stats_mod.kde_random(data, h=1.0, seed=42)
             _ = f()
         return {"actual_classification": "fail", "failure_reason": "empty data did not raise", "input_count": 0, "input_data_hash": data_hash(data)}
-    except Exception as e:
+    except stats_mod.StatisticsError as e:
         et = type(e).__name__
         return {"actual_classification": "expected_error", "exception_type": et, "exception_message": str(e)[:200], "input_count": 0, "input_data_hash": data_hash(data), "api_exercised": "statistics.kde" if method != "draw_seeded_samples" else "statistics.kde_random"}
+    except Exception as e:
+        et = type(e).__name__
+        return {"actual_classification": "fail", "exception_type": et, "exception_message": str(e)[:200], "input_count": 0, "input_data_hash": data_hash(data), "failure_reason": f"wrong exception type for empty data: {et}, expected StatisticsError"}
 
 def case_single_point_normal_reference_marker(method):
     if method != "evaluate_pdf":
@@ -571,19 +576,21 @@ def case_tiny_density_threshold_classifier_marker(method):
     results = []
     for q in queries:
         dl = fl(q); dr = fr(q)
-        label = "left" if dl > dr else "right" if dr > dl else "tie"
-        results.append((q, dl, dr, label))
-    # record first query
-    q, dl, dr, label = results[0]
+        equal_within_tol = abs(dl - dr) <= 1e-15
+        label = "left" if dl > dr and not equal_within_tol else "right" if dr > dl and not equal_within_tol else "tie"
+        results.append({"query": q, "left_density": dl, "right_density": dr, "label": label, "equal_within_tolerance": equal_within_tol})
+    # record first query in legacy scalar fields for backwards compat
+    q0 = results[0]
     return {
         "actual_classification": "local_observation",
         "api_exercised": "statistics.kde",
         "kernel": "normal",
         "bandwidth": h,
-        "left_density_score": dl,
-        "right_density_score": dr,
-        "local_density_label": label,
-        "narrow_local_conclusion": "density comparison is not a validated classifier; no accuracy computed; 1-D toy only",
+        "left_density_score": q0["left_density"],
+        "right_density_score": q0["right_density"],
+        "local_density_label": q0["label"],
+        "density_query_results": json.dumps(results),
+        "narrow_local_conclusion": "density comparison is not a validated classifier; no accuracy computed; 1-D toy only; 3 queries recorded",
     }
 
 def case_no_global_ml_validity_claim_marker(method):

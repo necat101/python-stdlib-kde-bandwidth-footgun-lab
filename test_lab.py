@@ -128,6 +128,17 @@ class TestLab(unittest.TestCase):
         if r["actual_classification"] != "version_skip":
             self.assertIsNotNone(r["left_density_score"])
             self.assertIsNotNone(r["right_density_score"])
+            # verify all 3 queries recorded
+            self.assertIsNotNone(r.get("density_query_results"))
+            import json as _json
+            qres = _json.loads(r["density_query_results"])
+            self.assertEqual(len(qres), 3)
+            for qr in qres:
+                self.assertIn("query", qr)
+                self.assertIn("left_density", qr)
+                self.assertIn("right_density", qr)
+                self.assertIn("label", qr)
+                self.assertIn("equal_within_tolerance", qr)
 
     def test_results_counts_agree(self):
         with open(ROOT / "results_rows.csv") as f:
@@ -159,7 +170,19 @@ class TestLab(unittest.TestCase):
             self.assertIn(n.lower(), low, f"missing disclaimer fragment: {n}")
 
     def test_artifact_scan(self):
-        bad_tokens = ["/home/", "/root/", "ghp_", "OPENCLA", "token", "passwd"]
+        # Prohibited content categories
+        bad_substrings = [
+            "/home/", "/root/",
+            "ghp_",                    # GitHub PAT
+            "sk-",                     # API key prefix
+            "passwd", "/etc/passwd",
+        ]
+        # session / credential patterns (case-insensitive)
+        bad_patterns_ci = [
+            "sessionkey", "session_key",
+            "openclaw.*token",  # openclaw credentials, not the tool name itself
+        ]
+        import re
         # scan committed text artifacts
         paths = [
             ROOT / "cases.json",
@@ -176,14 +199,16 @@ class TestLab(unittest.TestCase):
         if hn1.exists(): paths.append(hn1)
         if hn2.exists(): paths.append(hn2)
         for p in paths:
-            txt = p.read_text(errors="ignore").lower()
-            # allow /home/ in a generic disclaimer context? be strict but skip obvious false positives
-            # just check for obvious credential patterns
-            self.assertNotIn("ghp_", txt)
-            # /home/ check – allow if it's in README path-sanitization note only
-            if "/home/" in txt or "/root/" in txt:
-                # fail unless it's the allowed disclaimer
-                self.assertTrue("sanitiz" in txt or "path" in txt, f"suspect path leak in {p}")
+            txt = p.read_text(errors="ignore")
+            low = txt.lower()
+            for bad in bad_substrings:
+                self.assertNotIn(bad.lower(), low, f"prohibited token '{bad}' found in {p}")
+            for pat in bad_patterns_ci:
+                self.assertIsNone(re.search(pat, low), f"prohibited pattern '{pat}' found in {p}")
+            # check for /tmp paths (temporary / repo-local paths)
+            # allow /tmp in README/VERIFY as generic example, but not in data artifacts
+            if p.name in ("results_rows.json", "results_rows.csv", "cases.json"):
+                self.assertNotIn("/tmp/", low, f"temporary path leak in {p}")
 
 if __name__ == "__main__":
     unittest.main()

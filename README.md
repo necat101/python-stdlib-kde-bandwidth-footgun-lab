@@ -92,4 +92,4 @@ This repository tests **only** the Python 3.13+ standard-library `statistics.kde
 
 ## Interpreter path sanitization
 
-Committed result artifacts record the Python executable as `/python-lab/.local/bin/python3.14`. The real local interpreter was `/home/ubuntu/.local/bin/python3.14`; the `/home/ubuntu` prefix was replaced with `/python-lab` to avoid exposing a home-directory path in committed artifacts.
+Committed result artifacts record the Python executable with a sanitized prefix (`/python-lab/...`). Any home-directory prefix present in the local environment was replaced with `/python-lab` before writing results, to avoid exposing local filesystem paths in committed artifacts.

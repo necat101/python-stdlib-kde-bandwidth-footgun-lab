@@ -41,7 +41,7 @@ Total runtime: 0.002s
 - seeded_kde_random_repeatability_marker / draw_seeded_samples: seeded sequences match locally
 - seeded_sequence_cross_version_disclaimer_marker / draw_seeded_samples: seed gives local repeatability, not cross-version bit identity
 - seeded_sequence_cross_version_disclaimer_marker / ml_context_observation: seed gives local repeatability, not cross-version bit identity
-- tiny_density_threshold_classifier_marker / ml_context_observation: density comparison is not a validated classifier; no accuracy computed; 1-D toy only
+- tiny_density_threshold_classifier_marker / ml_context_observation: density comparison is not a validated classifier; no accuracy computed; 1-D toy only; 3 queries recorded
 - no_global_ml_validity_claim_marker / inspect_api: no global ML validity claim
 - no_global_ml_validity_claim_marker / evaluate_pdf: no global ML validity claim
 - no_global_ml_validity_claim_marker / evaluate_cdf: no global ML validity claim
