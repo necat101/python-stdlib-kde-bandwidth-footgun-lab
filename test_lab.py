@@ -80,7 +80,8 @@ class TestLab(unittest.TestCase):
                 if r["actual_classification"] == "version_skip":
                     continue
                 self.assertEqual(r["actual_classification"], "expected_error")
-                self.assertTrue(r["exception_type"])
+                self.assertEqual(r["exception_type"], "StatisticsError",
+                    f"{r['method']} raised {r['exception_type']}, expected StatisticsError")
 
     def test_single_point_reference(self):
         r = next((x for x in self.rows if x["case_id"]=="single_point_normal_reference_marker" and x["method"]=="evaluate_pdf"), None)
@@ -128,17 +129,37 @@ class TestLab(unittest.TestCase):
         if r["actual_classification"] != "version_skip":
             self.assertIsNotNone(r["left_density_score"])
             self.assertIsNotNone(r["right_density_score"])
-            # verify all 3 queries recorded
+            # verify all 3 queries recorded with semantic correctness
             self.assertIsNotNone(r.get("density_query_results"))
-            import json as _json
+            import json as _json, math
             qres = _json.loads(r["density_query_results"])
             self.assertEqual(len(qres), 3)
+            # expected query points
+            expected_queries = [-2.0, 0.0, 2.0]
+            actual_queries = [qr["query"] for qr in qres]
+            self.assertEqual(actual_queries, expected_queries)
             for qr in qres:
                 self.assertIn("query", qr)
                 self.assertIn("left_density", qr)
                 self.assertIn("right_density", qr)
                 self.assertIn("label", qr)
                 self.assertIn("equal_within_tolerance", qr)
+                dl = qr["left_density"]
+                dr = qr["right_density"]
+                # densities finite and nonnegative
+                self.assertTrue(math.isfinite(dl) and dl >= 0, f"left_density {dl} not finite/nonnegative")
+                self.assertTrue(math.isfinite(dr) and dr >= 0, f"right_density {dr} not finite/nonnegative")
+                # tie flag matches scores
+                equal = abs(dl - dr) <= 1e-15
+                self.assertEqual(qr["equal_within_tolerance"], equal,
+                    f"tie flag mismatch at query {qr['query']}: dl={dl} dr={dr}")
+                # label matches scores
+                if equal:
+                    self.assertEqual(qr["label"], "tie")
+                elif dl > dr:
+                    self.assertEqual(qr["label"], "left")
+                else:
+                    self.assertEqual(qr["label"], "right")
 
     def test_results_counts_agree(self):
         with open(ROOT / "results_rows.csv") as f:
@@ -170,19 +191,30 @@ class TestLab(unittest.TestCase):
             self.assertIn(n.lower(), low, f"missing disclaimer fragment: {n}")
 
     def test_artifact_scan(self):
-        # Prohibited content categories
-        bad_substrings = [
-            "/home/", "/root/",
-            "ghp_",                    # GitHub PAT
-            "sk-",                     # API key prefix
-            "passwd", "/etc/passwd",
-        ]
-        # session / credential patterns (case-insensitive)
-        bad_patterns_ci = [
-            "sessionkey", "session_key",
-            "openclaw.*token",  # openclaw credentials, not the tool name itself
-        ]
+        # Prohibited content categories – data files checked strictly,
+        # markdown docs allow explanatory text about what is banned
         import re
+        # Credential / token patterns – banned everywhere
+        credential_patterns = [
+            r"ghp_[A-Za-z0-9]{20,}",  # GitHub PAT
+            r"sk-[A-Za-z0-9]{20,}",   # OpenAI / generic API key
+            r"bearer\s+[A-Za-z0-9_\-\.]{20,}",
+            r"api[_-]?key\s*[:=]\s*['\"][A-Za-z0-9_\-]{16,}",
+            r"password\s*[:=]\s*['\"][^'\"]{4,}",
+            r"openclaw.*token",
+            r"sessionkey|session_key|sessionid|session_id",
+        ]
+        # Filesystem path patterns – only enforced in structured data files
+        # (docs may mention these paths when explaining sanitization)
+        path_patterns = [
+            r"/home/[A-Za-z0-9_]",
+            r"/root/",
+            r"/mnt/",
+            r"/workspace/",
+            r"/var/tmp/",
+            r"C:\\\\Users\\\\",
+            r"/Users/[A-Za-z]",
+        ]
         # scan committed text artifacts
         paths = [
             ROOT / "cases.json",
@@ -198,17 +230,21 @@ class TestLab(unittest.TestCase):
         hn2 = ROOT / "hn_comments_sanitized.json"
         if hn1.exists(): paths.append(hn1)
         if hn2.exists(): paths.append(hn2)
+        data_files = {"results_rows.json", "results_rows.csv", "cases.json", "hn_comments_sanitized.json"}
         for p in paths:
             txt = p.read_text(errors="ignore")
             low = txt.lower()
-            for bad in bad_substrings:
-                self.assertNotIn(bad.lower(), low, f"prohibited token '{bad}' found in {p}")
-            for pat in bad_patterns_ci:
-                self.assertIsNone(re.search(pat, low), f"prohibited pattern '{pat}' found in {p}")
-            # check for /tmp paths (temporary / repo-local paths)
-            # allow /tmp in README/VERIFY as generic example, but not in data artifacts
-            if p.name in ("results_rows.json", "results_rows.csv", "cases.json"):
-                self.assertNotIn("/tmp/", low, f"temporary path leak in {p}")
+            # credential patterns – everywhere
+            for pat in credential_patterns:
+                self.assertIsNone(re.search(pat, low, re.IGNORECASE),
+                    f"credential pattern '{pat}' found in {p}")
+            # path patterns – data files only
+            if p.name in data_files:
+                for pat in path_patterns:
+                    self.assertIsNone(re.search(pat, txt),
+                        f"prohibited path pattern '{pat}' found in {p}")
+                # also ban /tmp/ in data files
+                self.assertNotIn("/tmp/", txt, f"temporary path leak in {p}")
 
 if __name__ == "__main__":
     unittest.main()
