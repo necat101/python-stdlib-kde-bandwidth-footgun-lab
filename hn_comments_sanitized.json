@@ -1,0 +1,418 @@
+[
+  {
+    "id": 46122373,
+    "by": "farhanhubble",
+    "parent": 46120611,
+    "time": 1764690296,
+    "type": "comment",
+    "text": "I loved his Statistics for Hackers talk: <a href=\"https:&#x2F;&#x2F;speakerdeck.com&#x2F;pycon2016&#x2F;jake-vanderplas-statistics-for-hackers\" rel=\"nofollow\">https:&#x2F;&#x2F;speakerdeck.com&#x2F;pycon2016&#x2F;jake-vanderplas-statistics...</a>"
+  },
+  {
+    "id": 46121830,
+    "by": "ellisv",
+    "parent": 46120611,
+    "time": 1764687434,
+    "type": "comment",
+    "text": "These types of books are always interesting to me because they tackle so many different things. They cover a range of topics at a high level (data manipulation, visualization, machine learning) and each could have its own book. They balance teaching programming while introducing concepts (and sometimes theory).<p>In short I think it&#x27;s hard to strike an appropriate balance between these but this seems to be a good intro level book."
+  },
+  {
+    "id": 46123231,
+    "by": "trio8453",
+    "parent": 46120611,
+    "time": 1764694180,
+    "type": "comment",
+    "text": "This book was absolute fire for getting started with data science in 2017-2018, Jake is a great teacher."
+  },
+  {
+    "id": 46122067,
+    "by": "sschnei8",
+    "parent": 46120611,
+    "time": 1764688792,
+    "type": "comment",
+    "text": "Interesting choice of Pandas in this day and age. Maybe he\u2019s after imparting general concepts that you could apply to any tabular data manipulator rather than selecting for the latest shiny tool."
+  },
+  {
+    "id": 46125445,
+    "by": "pantsforbirds",
+    "parent": 46120611,
+    "time": 1764703376,
+    "type": "comment",
+    "text": "I used the Kernel Density Estimation (KDE) page&#x2F;blog at my very first job. It was immensely useful and I&#x27;ve loved his work ever since."
+  },
+  {
+    "id": 46129504,
+    "by": "refactor_master",
+    "parent": 46120611,
+    "time": 1764727904,
+    "type": "comment",
+    "text": "I honestly don&#x27;t get why you&#x27;d hate pandas more than anything else in the Python ecosystem. It&#x27;s probably not the best tool in the world, and sure, like everybody else I&#x27;d rewrite the universe in Rust if I could start over, and had infinite time to catch up.<p>But the code base I work on has thousands and THOUSANDS of lines of Pandas churning through big data, and I can&#x27;t remember the last time it lead to a bug or error in production.<p>We use pandas + static schema wrapper + type checker, so you&#x27;ll have to get exotic to break things."
+  },
+  {
+    "id": 46131023,
+    "by": "runningmike",
+    "parent": 46120611,
+    "time": 1764744953,
+    "type": "comment",
+    "text": "<a href=\"https:&#x2F;&#x2F;learningds.org&#x2F;intro.html\" rel=\"nofollow\">https:&#x2F;&#x2F;learningds.org&#x2F;intro.html</a>  \nCc-by-nc-nd"
+  },
+  {
+    "id": 46122588,
+    "by": "__rito__",
+    "parent": 46120611,
+    "time": 1764691312,
+    "type": "comment",
+    "text": "This is one of the few books that I read cover-to-cover when I was starting out learning Data Science in 2020&#x2F;21. Will recommend."
+  },
+  {
+    "id": 46122158,
+    "by": "wiz21c",
+    "parent": 46120611,
+    "time": 1764689300,
+    "type": "comment",
+    "text": "I wouldn&#x27;t say it&#x27;s a handbook because it&#x27;s more like an introduction. But it&#x27;s pretty well written."
+  },
+  {
+    "id": 46129287,
+    "by": "pid-1",
+    "parent": 46120611,
+    "time": 1764726058,
+    "type": "comment",
+    "text": "Pandas is cancer. Please stop teaching it to people.<p>Everything it does can be done reasonable well with list comprehensions and objects that support type annotations and runtime type checking (if needed).<p>Pandas code is untestable, unreadable, hard to refactor and impossible to reuse.<p>Trillions of dollars are wasted every year by people having to rewrite pandas code."
+  },
+  {
+    "id": 46125420,
+    "by": "yboris",
+    "parent": 46122373,
+    "time": 1764703259,
+    "type": "comment",
+    "text": "Amazing Thank you for sharing.<p>Reminds me of how thinking using frequencies rather than computing probabilities is easier and can avoid errors (e.g. a 99% accurate test being positive does not mean 99% likelihood of having disease for a disease with a 1&#x2F;10,000 prevalence in population)."
+  },
+  {
+    "id": 46159156,
+    "by": "mayankkaizen",
+    "parent": 46123231,
+    "time": 1764928358,
+    "type": "comment",
+    "text": "This was the solid book to get into data science and ML scene. Covers everything. Jake is a fantastic teacher. I really wish he comes up with updated second edition."
+  },
+  {
+    "id": 46122294,
+    "by": "dahcryn",
+    "parent": 46122067,
+    "time": 1764689931,
+    "type": "comment",
+    "text": "why? It&#x27;s the industry standard as far as my reach goes.<p>What other framework would you replace it with?<p>No, polars or spark is not a good answer, those are optimized for data engineering performance, not a holistic approach to data science."
+  },
+  {
+    "id": 46122151,
+    "by": "xenophonf",
+    "parent": 46122067,
+    "time": 1764689282,
+    "type": "comment",
+    "text": "What&#x27;s wrong with Pandas?"
+  },
+  {
+    "id": 46122829,
+    "by": "ayhanfuat",
+    "parent": 46121340,
+    "time": 1764692530,
+    "type": "comment",
+    "text": "He is also the creator of the Altair visualization library (Vega-Lite in Python <a href=\"https:&#x2F;&#x2F;altair-viz.github.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;altair-viz.github.io&#x2F;</a>). I really like using it."
+  },
+  {
+    "id": 46123340,
+    "by": "phone_book",
+    "parent": 46122358,
+    "time": 1764694680,
+    "type": "comment",
+    "text": "The linked Github seems to have the 2nd edition in the form of notebooks, <a href=\"https:&#x2F;&#x2F;github.com&#x2F;jakevdp&#x2F;PythonDataScienceHandbook&#x2F;blob&#x2F;master&#x2F;notebooks&#x2F;00.00-Preface.ipynb\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;jakevdp&#x2F;PythonDataScienceHandbook&#x2F;blob&#x2F;ma...</a>, under the Using Code Examples section, &quot;attribution usually includes the title, author, publisher, and ISBN. For example: &quot;Python Data Science Handbook, 2nd edition, by Jake VanderPlas (O\u2019Reilly). Copyright 2023...&quot; compared to the OP&#x27;s link which has &quot;The Python Data Science Handbook by Jake VanderPlas (O\u2019Reilly). Copyright 2016...&quot;"
+  },
+  {
+    "id": 46129720,
+    "by": "mttpgn",
+    "parent": 46129287,
+    "time": 1764730076,
+    "type": "comment",
+    "text": "&gt; Pandas code is untestable<p>The thousand-plus data integrity tests I&#x27;ve written in pandas tell a different story..."
+  },
+  {
+    "id": 46131615,
+    "by": "jononor",
+    "parent": 46129287,
+    "time": 1764749957,
+    "type": "comment",
+    "text": "Code using pandas is testable and reusable in much the same way as any other code, make functions that take and return data.<p>That said, the polars&#x2F;narwals style API is better than pandas  API for sure. More readable and composable, simpler (no index) and a bit less weird overall."
+  },
+  {
+    "id": 46130828,
+    "by": "isolatedsystem",
+    "parent": 46129287,
+    "time": 1764742594,
+    "type": "comment",
+    "text": "I&#x27;ve recently had to migrate over to Python from Matlab. Pandas has been doing my head in. The syntax is so unintuitive. In Matlab, everything begins with a `for` loop. Inelegant and slow, yes, but easy to reason about. Easy to see the scope and domain of the problem, to visualise the data wrangling.<p>Pandas insist you never use a for loop. So, I feel guilty if I ever need a throwaway variable on the way to creating a new column. Sometimes methods are attached to objects, other times they aren&#x27;t. And if you need to use a function that isn&#x27;t vectorised, you&#x27;ve got to do df.apply anyway. You have to remember to change the &#x27;axis&#x27; too. Plotting is another thing that I can&#x27;t get my head around. Am I supposed to use Pandas&#x27; helpers like df.plot() all the time? Or ditch it and use the low level matplotlib directly? What is idiomatic? I cannot find answers to much of it, even with ChatGPT. Worse, I can&#x27;t seem to <i>create a mental model</i> of what Pandas expects me to do in a given situation.<p>Pandas has disabused me of the notion that Python syntax is self-explanatory and executable-pseudocode. I find it terrible to look at. Matlab was infinitely more enjoyable."
+  },
+  {
+    "id": 46131428,
+    "by": "wesleywt",
+    "parent": 46129287,
+    "time": 1764748559,
+    "type": "comment",
+    "text": "Maybe you are just bad at pandas."
+  },
+  {
+    "id": 46131431,
+    "by": "globular-toast",
+    "parent": 46129287,
+    "time": 1764748581,
+    "type": "comment",
+    "text": "Can you write more about this? A lot of people use pandas where I work, whereas I&#x27;m completely fluent in list comprehensions and dataclasses etc. I had the impression it was doing something &quot;more&quot; like using numpy arrays&#x2F;matrices for columns."
+  },
+  {
+    "id": 46130685,
+    "by": "physicsguy",
+    "parent": 46129287,
+    "time": 1764740736,
+    "type": "comment",
+    "text": "I found Pandera quite good for wrapping input&#x2F;output expectations over Pandas. At the end of the day the vectorisation of operations in it and other table based formats mean they\u2019re not easy to replace performantly."
+  },
+  {
+    "id": 46131481,
+    "by": "mkl",
+    "parent": 46122130,
+    "time": 1764749000,
+    "type": "comment",
+    "text": "Looks like it.  From <a href=\"https:&#x2F;&#x2F;jakevdp.github.io&#x2F;PythonDataScienceHandbook&#x2F;00.00-preface.html\" rel=\"nofollow\">https:&#x2F;&#x2F;jakevdp.github.io&#x2F;PythonDataScienceHandbook&#x2F;00.00-pr...</a>:<p>&gt; Copyright 2016"
+  },
+  {
+    "id": 46123160,
+    "by": "crystal_revenge",
+    "parent": 46122294,
+    "time": 1764693928,
+    "type": "comment",
+    "text": "You can assert whatever you want, but Polars is a <i>great answer</i>. The performance improvements are secondary to me compared to the dramatic improvement in interface.<p>Today all serious DS work will ultimately become data engineering work anyway. The time when DS can just fiddle around in notebooks all day has passed."
+  },
+  {
+    "id": 46122464,
+    "by": "porker",
+    "parent": 46122294,
+    "time": 1764690755,
+    "type": "comment",
+    "text": "&gt; No, polars or spark is not a good answer, those are optimized for data engineering performance, not a holistic approach to data science.<p>Can you expand on why Polars isn&#x27;t optimised for a holistic approach to data science?"
+  },
+  {
+    "id": 46123864,
+    "by": "minimaxir",
+    "parent": 46122294,
+    "time": 1764696788,
+    "type": "comment",
+    "text": "What can you do in more easily in pandas than polars?"
+  },
+  {
+    "id": 46127323,
+    "by": "crystal_revenge",
+    "parent": 46122151,
+    "time": 1764712034,
+    "type": "comment",
+    "text": "Pandas is generally awful unless you&#x27;re just living in a notebook (and even then it&#x27;s probably least favorite implementation of the &#x27;data frame&#x27; concept).<p>Since Pandas lacks Polars&#x27; concept of an Expression, it&#x27;s actually quite challenging to programmatically interact with non-trivial Pandas queries. In Polars the query logic can be entirely independent of the data frame while still referencing specific columns of the data frame. This makes Polars data frames work much more naturally with typical programming abstractions.<p>Pandas multi-index is a bad idea in nearly all contexts other than it&#x27;s original use case: financial time series (and I&#x27;ll admit, if you&#x27;re working with purely financial time series, then Pandas feels <i>much</i> better). Sufficiently large Pandas code bases are littered with seemingly arbitrary uses of &#x27;reset_index&#x27;, there are many times where multi-index will create bugs, and, most important, I&#x27;ve never seen any non-financial scenario where anyone has ever used Multi-index to their advantage.<p>Finally Pandas is slow, which is honestly the least priority for me personally, but using Polars is so refreshing.<p>What other data frames have you used? Having used R&#x27;s native dataframes extensively (the way they make use of indexing is so much nicer) in addition to Polars both are drastically preferable to Pandas. My experience is that most people use Pandas because it has been the only data frame implementation in Python. But personally I&#x27;d rather just not use data frames if I&#x27;m forced to used Pandas. Could you expand on what you <i>like</i> about Pandas over other data frames models you&#x27;ve worked with?"
+  },
+  {
+    "id": 46122249,
+    "by": "clickety_clack",
+    "parent": 46122151,
+    "time": 1764689740,
+    "type": "comment",
+    "text": "I probably wouldn\u2019t rewrite an entire data science stack that used pandas, but most people would use polars if starting a new project today."
+  },
+  {
+    "id": 46123456,
+    "by": "amelius",
+    "parent": 46122151,
+    "time": 1764695124,
+    "type": "comment",
+    "text": "Pandas turns 10x developers with a lust for life into 0.1x developers with grey hairs."
+  },
+  {
+    "id": 46131445,
+    "by": "wesleywt",
+    "parent": 46122151,
+    "time": 1764748694,
+    "type": "comment",
+    "text": "Nothing, it gets the job done for most people. If you don&#x27;t like it, make a better tool. Polars is not it."
+  },
+  {
+    "id": 46124108,
+    "by": "linhns",
+    "parent": 46122829,
+    "time": 1764697948,
+    "type": "comment",
+    "text": "Thanks for the fact, I used Altair sometimes and really admire the simplicity, not knowing it was written by Jake."
+  },
+  {
+    "id": 46155935,
+    "by": "refactor_master",
+    "parent": 46133806,
+    "time": 1764899288,
+    "type": "comment",
+    "text": "Originally I used Pandera, but it had several issues last<p>* Mypy dependency and really bad PEP compliance\n* Sub-optimal runtime check decorators\n* Subclasses pd.DataFrame, so using e.g. .assign(...) makes the type checker think it&#x27;s still the same type, but now you just violated your own schema<p>So I wrote my own library that solves all these issues, but it&#x27;s currently company-internal. I&#x27;ve been meaning to push for open-sourcing it, but just haven&#x27;t had the time."
+  },
+  {
+    "id": 46131976,
+    "by": "jmpeax",
+    "parent": 46131615,
+    "time": 1764751824,
+    "type": "comment",
+    "text": "Polars made the mistake of not maintaining row order for all operations, via the False-by-default argument of maintain_order. This is basically the billion-dollar null mistake for data frames."
+  },
+  {
+    "id": 46131030,
+    "by": "radus",
+    "parent": 46130828,
+    "time": 1764744980,
+    "type": "comment",
+    "text": "Polars has a much more consistent API, give it a shot.<p>Regarding your plotting question: use seaborn when you can, but you\u2019ll still need to know matplotlib."
+  },
+  {
+    "id": 46133305,
+    "by": "kelipso",
+    "parent": 46130828,
+    "time": 1764761728,
+    "type": "comment",
+    "text": "Yeah, pandas is truly awful. After working with things like R, ggplot, data.table, you soon realize pandas is the worst dataframe analysis and plotting library out there.<p>I pretty much consider anyone who likes it to have Stockholm syndrome."
+  },
+  {
+    "id": 46133993,
+    "by": "fifilura",
+    "parent": 46130828,
+    "time": 1764766869,
+    "type": "comment",
+    "text": "A lot of people appreciate the declarative approach.<p>A for loop is a lot about the &quot;how&quot; but apply, join etc are much closer to the &quot;what&quot;."
+  },
+  {
+    "id": 46124552,
+    "by": "this_user",
+    "parent": 46123160,
+    "time": 1764700042,
+    "type": "comment",
+    "text": "Pandas is widely adopted and deeply integrated into the Python ecosystem. Meanwhile, Polars remains a small niche, and it&#x27;s one of those hype technologies that will likely be dead in 3 years once most of its users realise that it offers them no actual practical advantages over Pandas.<p>If you are dealing with huge data sets, you are probably using Spark or something like Dask already where jobs can run in the cloud. If you need speed and efficiency on your local machine, you use NumPy outright. And if you really, really need speed, you rewrite it in C&#x2F;C++.<p>Polars is trying to solve an issue that just doesn&#x27;t exist for the vast majority of users."
+  },
+  {
+    "id": 46123497,
+    "by": "fifilura",
+    "parent": 46122464,
+    "time": 1764695301,
+    "type": "comment",
+    "text": "I have not work with Polars, but I would imagine any incompatibility with existing libraries (e.g. plotting libraries like plotnine, bokeh) would quickly put me off.<p>It is a curse I know. I would also choose a better interface. Performance is meh to me, I use SQL if i want to do something at scale that involves row&#x2F;column data."
+  },
+  {
+    "id": 46135422,
+    "by": "xenophonf",
+    "parent": 46127323,
+    "time": 1764774864,
+    "type": "comment",
+    "text": "I initially considered using Pandas to work with community collections of Elite: Dangerous game data, specifically those published first by EDDB (RIP) and now by Spansh.  However, I quickly hit the maximum process memory limits because my na\u00efve attempts at manipulating even the smallest of those collections resulted in Pandas loading GB-scale JSON data files into RAM.  I&#x27;m intrigued by Polars stated support for data streaming.  More professionally, I support the work of bioinformaticians, statisticians, and data scientists, so I like to stay informed.<p>I like how in Pandas (and in R), I can quickly load data sets up in a manner that lets me do relational queries using familiar syntax.  For my Elite: Dangerous project, because I couldn&#x27;t get Pandas to work for me (which the reader should chalk up to my ignorance and not any deficiency of Pandas itself), I ended up using the SQLAlchemy ORM with Marshmallow to load the data into SQLite or PostgreSQL.  Looking back at the work, I probably ought to have thrown it into a JSON-aware data warehouse somehow, which I think is how the guy behind Spansh does it, but I&#x27;m not a big data guy (yet) and have a lot to learn about what&#x27;s possible."
+  },
+  {
+    "id": 46123029,
+    "by": "biofox",
+    "parent": 46122249,
+    "time": 1764693319,
+    "type": "comment",
+    "text": "R and Matlab workflows have been fairly stable for the past decade. Why is the Python ecosystem so... unstable? It puts me off investing any time in it."
+  },
+  {
+    "id": 46134432,
+    "by": "jononor",
+    "parent": 46131976,
+    "time": 1764769716,
+    "type": "comment",
+    "text": "Yeah that really should have been default. Very big footgun, especially when preserving ordering is default in pandas, numpy, etc. And especially when there is no ingrained index concept in polars, people might very well forget that one needs to have some natural keys and not rely on ordering. One needs to bring more of an SQL mindset."
+  },
+  {
+    "id": 46124881,
+    "by": "stdbrouw",
+    "parent": 46124552,
+    "time": 1764701231,
+    "type": "comment",
+    "text": "Arguably Spark solves a problem that does not exist anymore: single node performance with tools like DuckDB and Polars is so good that there\u2019s no need for more complex orchestration anymore, and these tools are sufficiently user-friendly that there is little point to switching to Pandas for smaller datasets."
+  },
+  {
+    "id": 46126783,
+    "by": "crystal_revenge",
+    "parent": 46124552,
+    "time": 1764709122,
+    "type": "comment",
+    "text": "&gt; Pandas is widely adopted and deeply integrated into the Python ecosystem.<p>This is pretty laughable.  Yes there are very DS specific tools that make good use of Pandas, but `to_pandas` in Polars trivially solves this. The fact that Pandas always feels like injecting some weird DSL into existing Python code bases is one of the major reasons why I really don&#x27;t like it.<p>&gt; If you are dealing with huge data sets, you are probably using Spark or something like Dask already where jobs can run in the cloud. If you need speed and efficiency on your local machine, you use NumPy outright. And if you really, really need speed, you rewrite it in C&#x2F;C++.<p>Have you used Polars at all? Or for that matter written significant Pandas outside of a notebook? The <i>number one</i> benefit of Polars, imho, is that Polars works using Expressions that allow you to trivially compose and reuse fundamental logic when working with data in a way the works well with other Python code. This solves the biggest problem with Pandas is that it does not abstract well.<p>Not to mention that Pandas is really poor dataframe experience outside of it&#x27;s original use case which was financial time series. The entire multi-index experience is awful and I know that either you are calling &#x27;reset_index&#x27; multiple times in your Pandas logic or you have bugs."
+  },
+  {
+    "id": 46126188,
+    "by": "minimaxir",
+    "parent": 46124552,
+    "time": 1764706338,
+    "type": "comment",
+    "text": "&gt; once most of its users realise that it offers them no actual practical advantages over Pandas<p>What? Speed and better nested data support (arrays&#x2F;JSON) alone are extremely useful to every data scientist.<p>My produtivity skyrocketed after switching from pandas to polars."
+  },
+  {
+    "id": 46127093,
+    "by": "crystal_revenge",
+    "parent": 46126860,
+    "time": 1764710804,
+    "type": "comment",
+    "text": "&quot;Data Science&quot; has <i>never</i> been related to academic research, it has always emerged in a business context. I wouldn&#x27;t say that researchers at Deep Mind are &quot;data scientists&quot;, they are academic researchers who focus on shipping papers. If you&#x27;re in a pure research environment, nobody cares if you write everything in Matlab.<p>But the last startup I was at tried to take a similar approach to research was unable to ship a functioning product and will likely disappear in a year from now. FAIR has been largely disbanded in favor of the <i>way</i> more shipping-centric MSL, and the people I know at Deep Mind are increasingly finding themselves under pressure to actually produce things.<p>Since you&#x27;ve been hanging out in an ivory tower then you might be unaware that during the peek DS frenzy (2016-2019) there were companies where data scientists were allowed to live entirely in notebooks and it was someone else&#x27;s problem to ship their notebooks. Today if you have that expectation you won&#x27;t last long at most companies, if you can even find a job in the first place.<p>On top of that, I know quite a few people at the major LLM teams and, based on my conversations, all of them are doing pretty serious data engineering work to get things shipped even if they were hired for there modeling expertise. It&#x27;s honestly hard to even run serious experiments at the scale of modern day LLMs without being pretty proficient at data engineering related tasks."
+  },
+  {
+    "id": 46123590,
+    "by": "rbartelme",
+    "parent": 46123497,
+    "time": 1764695670,
+    "type": "comment",
+    "text": "This is a non-issue with Polars dataframes to_pandas() method. You get all the performance of Polars for cleaning large datasets, and to_pandas() gives you backwards compatibility with other libraries. However, plotnine is completely compatible with Polars dataframe objects."
+  },
+  {
+    "id": 46123593,
+    "by": "maleldil",
+    "parent": 46123497,
+    "time": 1764695679,
+    "type": "comment",
+    "text": "You can always convert from Polars to Pandas. Plotnine will do it automatically for you, even."
+  },
+  {
+    "id": 46123523,
+    "by": "clickety_clack",
+    "parent": 46123029,
+    "time": 1764695394,
+    "type": "comment",
+    "text": "The R ecosystem has had a similar evolution with the tidyverse, it was just a little further ago. As for Matlab, I initially learned statistical programming with it a long time ago, but I\u2019m not sure I\u2019ve ever seen it in the wild. I don\u2019t know what\u2019s going on there.<p>I\u2019m actually quite partial to R myself, and I used to use it extensively back when quick analysis was more valuable to my career. Things have probably progressed, but I dropped it in favor of python because python can integrate into production systems whereas R was (and maybe still is) geared towards writing reports. One of the best things to happen recently in data science is the plotnine library, bringing the grammar of graphics to python imho.<p>The fact is that today, if you want career opportunities as a data scientist, you need to be fluent in python."
+  },
+  {
+    "id": 46127390,
+    "by": "crystal_revenge",
+    "parent": 46123029,
+    "time": 1764712320,
+    "type": "comment",
+    "text": "I love R, but how can you make that claim when R uses <i>three</i> distinct object-oriented systems all at the same time? R might seem stable only because it carries along with it 50 years of history of programming languages (part of it&#x27;s charm, where else can you see the generic function approach to OOP in a language that&#x27;s still evolving?)<p>Finally, as someone who wrote a lot of R pre-tidyverse, I&#x27;ve seen the entire ecosystem radically change over my career."
+  },
+  {
+    "id": 46131678,
+    "by": "jononor",
+    "parent": 46123029,
+    "time": 1764750320,
+    "type": "comment",
+    "text": "The pandas workflows have also been stable for the last decade. That there is a new kid on the block (polars) does not make the existing stuff any less stable. And one can just continue writing pandas for the next decade too."
+  },
+  {
+    "id": 46123633,
+    "by": "rbartelme",
+    "parent": 46123029,
+    "time": 1764695827,
+    "type": "comment",
+    "text": "Outside bioconductor or the tidyverse in R can be just as unstable due to CRAN&#x27;s package requirements."
+  },
+  {
+    "id": 46133791,
+    "by": "fluidcruft",
+    "parent": 46123523,
+    "time": 1764765351,
+    "type": "comment",
+    "text": "Mostly what&#x27;s going on with Matlab in the wild is that it costs at least $10k a seat as soon as you are no longer at an academic institution.<p>Yes, there is Octave but often the toolboxes aren&#x27;t available or compatible so you&#x27;re rewriting everything anyway. And when you start rewriting things for Octave you learn&#x2F;remember what trash Matlab actually is as a language or how big a pain doing anything that isn&#x27;t what Mathworks expects actually is.<p>To be fair: Octave has extended Matlab&#x27;s syntax with amazing improvements (many inspired by numpy and R). It really makes me angry that Mathworks hasn&#x27;t stolen Octave&#x27;s innovations and I hate every minute of not being able to broadcast and having to manually create temp variables because you can&#x27;t chain indexing whenever I have to touch actual Matlab. So to be clear Octave is somewhat pleasant and for pure numerical syntax superior to numpy.<p>But the siren call of Python is significant. Python is not the perfect language (for anything really) but it is a better-than-good language for almost everything and it&#x27;s old enough and used by so many people that someone has usually scratched what&#x27;s itching already. Matlab&#x27;s toolboxes can&#x27;t compete with that."
+  }
+]
