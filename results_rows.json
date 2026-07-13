@@ -35,7 +35,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.376960426568985e-06,
+    "elapsed_time": 1.2870877981185913e-06,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -76,7 +76,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.044943928718567e-06,
+    "elapsed_time": 1.1026859283447266e-06,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -117,7 +117,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 6.48200511932373e-07,
+    "elapsed_time": 6.570480763912201e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -158,7 +158,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.152526915073395e-07,
+    "elapsed_time": 3.2084062695503235e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -199,7 +199,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 5.830079317092896e-07,
+    "elapsed_time": 5.699694156646729e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "version recorded, no ML claim"
@@ -240,7 +240,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.4188699424266815e-06,
+    "elapsed_time": 1.2279488146305084e-06,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -281,7 +281,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.757886588573456e-07,
+    "elapsed_time": 3.5902485251426697e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -322,7 +322,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.314336597919464e-07,
+    "elapsed_time": 2.682209014892578e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -363,7 +363,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.1187588572502136e-07,
+    "elapsed_time": 1.8207356333732605e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -404,7 +404,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.9604340195655823e-07,
+    "elapsed_time": 1.83936208486557e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -445,7 +445,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.0533258318901062e-06,
+    "elapsed_time": 1.0952353477478027e-06,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -486,7 +486,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.5297125577926636e-07,
+    "elapsed_time": 3.4086406230926514e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -527,7 +527,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.761371433734894e-07,
+    "elapsed_time": 2.598389983177185e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -568,7 +568,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.207234501838684e-07,
+    "elapsed_time": 2.2491440176963806e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -609,7 +609,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 4.973262548446655e-07,
+    "elapsed_time": 4.2887404561042786e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "kde_random is sampling, not ML training"
@@ -650,7 +650,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 8.87550413608551e-07,
+    "elapsed_time": 8.158385753631592e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -691,7 +691,7 @@
     "local_density_label": null,
     "exception_type": "StatisticsError",
     "exception_message": "Empty data sequence",
-    "elapsed_time": 4.9569178372621536e-05,
+    "elapsed_time": 9.458605200052261e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -732,7 +732,7 @@
     "local_density_label": null,
     "exception_type": "StatisticsError",
     "exception_message": "Empty data sequence",
-    "elapsed_time": 1.7306767404079437e-05,
+    "elapsed_time": 4.251301288604736e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -773,7 +773,7 @@
     "local_density_label": null,
     "exception_type": "StatisticsError",
     "exception_message": "Empty data sequence",
-    "elapsed_time": 1.4933757483959198e-05,
+    "elapsed_time": 1.437310129404068e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -814,7 +814,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 8.046627044677734e-07,
+    "elapsed_time": 7.48317688703537e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -855,7 +855,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 8.130446076393127e-07,
+    "elapsed_time": 1.0933727025985718e-06,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -896,7 +896,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 5.453219637274742e-05,
+    "elapsed_time": 5.860486999154091e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "single normal kernel matches math.exp reference"
@@ -937,7 +937,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 6.062909960746765e-07,
+    "elapsed_time": 7.902272045612335e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -978,7 +978,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.7904828786849976e-07,
+    "elapsed_time": 4.7497451305389404e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1019,7 +1019,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.0174851417541504e-07,
+    "elapsed_time": 4.163011908531189e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1060,7 +1060,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 7.962808012962341e-07,
+    "elapsed_time": 6.360933184623718e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1101,7 +1101,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.987736999988556e-05,
+    "elapsed_time": 8.300784975290298e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "mirrored densities agree for symmetric data"
@@ -1142,7 +1142,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 6.118789315223694e-07,
+    "elapsed_time": 8.172355592250824e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1183,7 +1183,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.6694109439849854e-07,
+    "elapsed_time": 4.200264811515808e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1224,7 +1224,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.8870999813079834e-07,
+    "elapsed_time": 3.688037395477295e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1265,7 +1265,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.1078082025051117e-06,
+    "elapsed_time": 9.452924132347107e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1306,7 +1306,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 7.529137656092644e-05,
+    "elapsed_time": 0.0001726541668176651,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "grid min=3.72008e-07 max=0.199824, all finite nonnegative"
@@ -1347,7 +1347,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 4.139728844165802e-07,
+    "elapsed_time": 9.881332516670227e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1388,7 +1388,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.5704503059387207e-07,
+    "elapsed_time": 5.592592060565948e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1429,7 +1429,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.528540790081024e-07,
+    "elapsed_time": 3.962777554988861e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1470,7 +1470,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 5.690380930900574e-07,
+    "elapsed_time": 9.392388164997101e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1511,7 +1511,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 0.0005291067063808441,
+    "elapsed_time": 0.0008104159496724606,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "finite-grid mass \u2248 1.000000, distance from 1.0 = 0.000000"
@@ -1552,7 +1552,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 4.7031790018081665e-07,
+    "elapsed_time": 9.057112038135529e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1593,7 +1593,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.8032809495925903e-07,
+    "elapsed_time": 3.189779818058014e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1634,7 +1634,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.1280720829963684e-07,
+    "elapsed_time": 2.337619662284851e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1675,7 +1675,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 9.145587682723999e-07,
+    "elapsed_time": 6.370246410369873e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1716,7 +1716,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.8929283618927e-07,
+    "elapsed_time": 4.3585896492004395e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1757,7 +1757,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 6.588362157344818e-05,
+    "elapsed_time": 6.905989721417427e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "CDF values non-decreasing on grid"
@@ -1798,7 +1798,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.608874976634979e-07,
+    "elapsed_time": 4.2887404561042786e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1839,7 +1839,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.1141022443771362e-07,
+    "elapsed_time": 2.1792948246002197e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1880,7 +1880,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 6.440095603466034e-07,
+    "elapsed_time": 6.002373993396759e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1921,7 +1921,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.050081431865692e-07,
+    "elapsed_time": 3.3620744943618774e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -1962,7 +1962,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.292962744832039e-05,
+    "elapsed_time": 2.407701686024666e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "tail low=0 high=1"
@@ -2003,7 +2003,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.3387914299964905e-07,
+    "elapsed_time": 2.2165477275848389e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2044,7 +2044,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.2118911147117615e-07,
+    "elapsed_time": 2.169981598854065e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2085,7 +2085,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.4211982488632202e-06,
+    "elapsed_time": 1.5445984899997711e-06,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2126,7 +2126,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.3420823961496353e-05,
+    "elapsed_time": 1.3799872249364853e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "pdf at interior point recorded"
@@ -2167,7 +2167,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.2999942302703857e-05,
+    "elapsed_time": 2.3066066205501556e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "pdf=0.199649 fd=0.199649 abs_err=1.97e-11"
@@ -2208,7 +2208,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 6.728805601596832e-07,
+    "elapsed_time": 6.998889148235321e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2249,7 +2249,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.9068982005119324e-07,
+    "elapsed_time": 4.2282044887542725e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2290,7 +2290,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 8.502975106239319e-07,
+    "elapsed_time": 8.638016879558563e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2331,7 +2331,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 0.00011654617264866829,
+    "elapsed_time": 0.000117473304271698,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "narrow bandwidth preserves more local variation for this sample; not a universal rule"
@@ -2372,7 +2372,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 7.26897269487381e-07,
+    "elapsed_time": 7.348135113716125e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2413,7 +2413,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 4.4563785195350647e-07,
+    "elapsed_time": 4.3958425521850586e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2454,7 +2454,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.8405338525772095e-07,
+    "elapsed_time": 2.752058207988739e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2495,7 +2495,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 5.569308996200562e-07,
+    "elapsed_time": 6.142072379589081e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2536,7 +2536,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.31950543820858e-05,
+    "elapsed_time": 2.483278512954712e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "outside=[0.0, 0.0] inside=1"
@@ -2577,7 +2577,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.748573362827301e-07,
+    "elapsed_time": 4.470348358154297e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2618,7 +2618,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.4400651454925537e-07,
+    "elapsed_time": 2.738088369369507e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2659,7 +2659,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.8579885363578796e-07,
+    "elapsed_time": 2.0582228899002075e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2700,7 +2700,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.1031515896320343e-06,
+    "elapsed_time": 1.4202669262886047e-06,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2741,7 +2741,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 0.000180813018232584,
+    "elapsed_time": 0.00018133502453565598,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "alias max_diff=0"
@@ -2782,7 +2782,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 7.180497050285339e-07,
+    "elapsed_time": 7.767230272293091e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2823,7 +2823,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.511086106300354e-07,
+    "elapsed_time": 4.5262277126312256e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2864,7 +2864,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.9942020773887634e-07,
+    "elapsed_time": 3.371387720108032e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2905,7 +2905,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 7.948838174343109e-07,
+    "elapsed_time": 5.937181413173676e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -2946,7 +2946,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.5867874026298523e-05,
+    "elapsed_time": 1.5327706933021545e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "center=0.7979 far=0.0002677, duplicated input is not independent evidence"
@@ -2987,7 +2987,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.236345946788788e-07,
+    "elapsed_time": 3.67872416973114e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3028,7 +3028,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.891756594181061e-07,
+    "elapsed_time": 2.60770320892334e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3069,7 +3069,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.1280720829963684e-07,
+    "elapsed_time": 2.0815059542655945e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3110,7 +3110,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 8.25151801109314e-07,
+    "elapsed_time": 7.236376404762268e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3151,7 +3151,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.7822330594062805e-05,
+    "elapsed_time": 4.2786356061697006e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "base@[0,20]=[0.3321647544371834, 3.937402644738488e-219] outlier@[0,20]=[0.24912356582788756, 0.16622595016726363]; outlier changes all mixture weights"
@@ -3192,7 +3192,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.67872416973114e-07,
+    "elapsed_time": 4.810281097888947e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3233,7 +3233,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.2724270820617676e-07,
+    "elapsed_time": 2.5890767574310303e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3274,7 +3274,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.100132405757904e-07,
+    "elapsed_time": 1.9883736968040466e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3315,7 +3315,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 5.248002707958221e-07,
+    "elapsed_time": 6.202608346939087e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3397,7 +3397,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.337619662284851e-07,
+    "elapsed_time": 2.6263296604156494e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3438,7 +3438,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 8.582230657339096e-05,
+    "elapsed_time": 9.003421291708946e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "seeded sequences match locally"
@@ -3479,7 +3479,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.2922253012657166e-07,
+    "elapsed_time": 3.7206336855888367e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3520,7 +3520,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 5.490146577358246e-07,
+    "elapsed_time": 6.84056431055069e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3561,7 +3561,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 4.237517714500427e-07,
+    "elapsed_time": 4.5821070671081543e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3602,7 +3602,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.952292561531067e-07,
+    "elapsed_time": 3.3620744943618774e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3643,7 +3643,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 5.387701094150543e-07,
+    "elapsed_time": 4.731118679046631e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "seed gives local repeatability, not cross-version bit identity"
@@ -3684,7 +3684,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 4.1816383600234985e-07,
+    "elapsed_time": 4.3492764234542847e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "seed gives local repeatability, not cross-version bit identity"
@@ -3725,7 +3725,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 5.080364644527435e-07,
+    "elapsed_time": 5.168840289115906e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3766,7 +3766,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.998858690261841e-07,
+    "elapsed_time": 3.259629011154175e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3807,7 +3807,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.3515895009040833e-07,
+    "elapsed_time": 2.537854015827179e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3848,7 +3848,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.1280720829963684e-07,
+    "elapsed_time": 2.1606683731079102e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": null
@@ -3889,7 +3889,7 @@
     "local_density_label": "left",
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.5837140381336212e-05,
+    "elapsed_time": 1.6742851585149765e-05,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "density comparison is not a validated classifier; no accuracy computed; 1-D toy only"
@@ -3930,7 +3930,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 5.220063030719757e-07,
+    "elapsed_time": 6.030313670635223e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "no global ML validity claim"
@@ -3971,7 +3971,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 3.14321368932724e-07,
+    "elapsed_time": 3.5390257835388184e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "no global ML validity claim"
@@ -4012,7 +4012,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 2.1420419216156006e-07,
+    "elapsed_time": 2.761371433734894e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "no global ML validity claim"
@@ -4053,7 +4053,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.8905848264694214e-07,
+    "elapsed_time": 1.9790604710578918e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "no global ML validity claim"
@@ -4094,7 +4094,7 @@
     "local_density_label": null,
     "exception_type": null,
     "exception_message": null,
-    "elapsed_time": 1.8673017621040344e-07,
+    "elapsed_time": 2.2118911147117615e-07,
     "skip_reason": null,
     "failure_reason": null,
     "narrow_local_conclusion": "no global ML validity claim"

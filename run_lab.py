@@ -14,6 +14,9 @@ METHODS = ["inspect_api", "evaluate_pdf", "evaluate_cdf", "draw_seeded_samples",
 
 # env info
 py_exe = sys.executable
+# sanitize home-directory prefix in committed artifacts
+if py_exe.startswith("/home/ubuntu"):
+    py_exe = py_exe.replace("/home/ubuntu", "/python-lab", 1)
 py_version = sys.version
 py_impl = platform.python_implementation()
 plat = platform.platform()
